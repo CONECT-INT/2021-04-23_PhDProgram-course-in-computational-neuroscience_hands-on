@@ -1,69 +1,69 @@
-# 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles
+# 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles NeuroSchool PhD Program
+## NeuroSchool PhD Program
 
 
-* Où: Marseille (France)
+* Where: Marseille (France)
 
-* Quoi: [Master 1 Neurosciences et Sciences Cognitives](https://ametice.univ-amu.fr/course/view.php?id=72868)
+* What: [Session #3 : Realistic spiking neural networks](https://ametice.univ-amu.fr/course/view.php?id=72868)
 
 
-1. _Réseaux neuronaux artificiels pour la vision_
+1. _Applying the Theory on the eBrains platform_
 
-  * Mercredi 24/03/2021 de 9h-12h
+  * Friday, April 23, 2021; 9:00-12:30
   * Introduction aux Neurosciences de la Vision
   * Réseaux de neurones artificiels et apprentissage machine
 
-2. _Neurones impulsionnels et modèles des fonctions visuelles_
-  * Mercredi 21/04/2021 de 14h00-17h00
-  * TP via notebook
-  * https://github.com/laurentperrinet/2021_UE-neurosciences-computationnelles/
+2. _Hands-on practice_
+  * Friday, April 23, 2021; 14:00-17:00
+  * https://github.com/laurentperrinet/2021-04_PhDProgram-neurosciences-computationnelles
 
-Rendez-vous sur https://univ-amu-fr.zoom.us/j/95045077273?pwd=Y2Y2Q2VWbEUrd3lFRlUrdjlsczRVdz09
-
-
-# TP: reproduction de l'article de Mainen & Sejnowski, 1995
+*  https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
 
 
-* But de ce travail: lire un article scientifique, pouvoir le reproduire avec des simulations d'un neurone et afin d'améliorer sa compréhension.
+# Hands-on session: reproduction of the article by Mainen & Sejnowski, 1995
 
-* Modalités: les étudiants s'organisent seuls, en binome ou en trinome pour fournir un mémoire sous forme de [notebook](https://jupyter.org/) complété à partir [du modèle qui est fourni](https://raw.githubusercontent.com/laurentperrinet/2021_UE-neurosciences-computationnelles/master/C_MainenSejnowski1995.ipynb)). Suivez les balises `TODO` dans le notebook pour vous guider dans cette rédaction. Les commentaires doivent être fait en français (ou en anglais si nécessaire) dans le notebook (n'oubliez-pas de sauver vos changements) et envoyé par e-mail à mailto:laurent.perrinet@univ-amu.fr une fois votre travail fini (de préférence *avant* le 31 avril).
 
-* Outils nécessaires: [Jupyter](https://jupyter.org/), avec [numpy](https://numpy.org/) et [matplotlib](https://matplotlib.org/). Ce sont des outils standard et qui sont facilement installables sur toute plateforme. D'autres solutions hébergées existent:
+* The aim of this task is to read a scientific article, to reproduce it with simulations of a neuron and to improve the understanding of the study.
+
+* Modalities: students will organize themselves alone, in pairs or in triads to provide a brief in the form of a [notebook](https://jupyter.org/) completed from [the model that is provided](https://raw.githubusercontent.com/CONECT-INT/2021-04_PhDProgram-neurosciences-computationnelles/master/MainenSejnowski1995.ipynb). Follow the `QUESTION` tags in the notebook to guide you in this writing. Comments should be made in the notebook (don't forget to save your changes).
+
+* Tools needed: [Jupyter](https://jupyter.org/), with [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/). These are standard tools and are easily installed on any platform. Other hosted solutions exist:
   * [ebrains / HBP](https://wiki.ebrains.eu/bin/view/Collabs/neuromorphic/SpiNNaker/)
   * https://deepnote.com/
-  * sur  [GoogleColab](https://colab.research.google.com)  https://colab.research.google.com/github/laurentperrinet/2021_UE-neurosciences-computationnelles/blob/master/C_MainenSejnowski1995.ipynb
+  * on [GoogleColab](https://colab.research.google.com) https://colab.research.google.com/github/CONECT-INT/2021-04_PhDProgram-neurosciences-computationnelles/master/blob/master/MainenSejnowski1995.ipynb
 
-## contexte
+## context
 
-* Le but de cette première tache est de créer un "raster plot" qui montre la reproducibilité d'un train de spike avec des répétitions du même stimulus, comme dans ce travail dans la [rétine de rongeurs](https://laurentperrinet.github.io/2019-04-03_a_course_on_vision_and_modelization/#/1/3) ou dans le [cortex (V1) du chat](https://laurentperrinet.github.io/2019-04-03_a_course_on_vision_and_modelization/#/1/6).
+* The goal of this first task is to create a "raster plot" that shows the reproducibility of a spike train with repetitions of the same stimulus, as in this work in the [rodent retina](https://laurentperrinet.github.io/2019-04-03_a_course_on_vision_and_modelization/#/1/3) or in the [cat cortex (V1)](https://laurentperrinet.github.io/2019-04-03_a_course_on_vision_and_modelization/#/1/6).
 
-Ici, nous allons essayer de répliquer la figure 1 de [Mainen & Sejnowski (1995)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.299.8560&rep=rep1&type=pdf):
+Here, we will attempt to replicate Figure 1 of [Mainen & Sejnowski (1995)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.299.8560&rep=rep1&type=pdf):
 
 ![Mainen Sejnowski 1995](http://i.stack.imgur.com/ixnrz.png "figure 1")
 
-## prise en main des outils: numpy et matplotlib
+## getting to know the tools: numpy and matplotlib
 
-- on va créer des vecteurs représentant la dynamique d'un valeur en fonction du temps
-- pour cela, on crée un vecteur `time' représentant 1 seconde avec une précision de dt=.5ms
-- dans un premier temps, on va créer un plot d'un spike, d'un créneau & d'une sinusoïde
+- we are going to create vectors representing the dynamics of a value as a function of time
+- for that, we create a vector `time' representing 1 second with a precision of dt=.5ms
+- in a first step, we will create a plot of a spike, a slot & a sinusoid
 
-## définition du problème: leaky-integrate and fire neuron
+## problem definition: leaky-integrate and fire neuron
 
-- on va simuler 1 neurone pour 2 secondes avec une précision de dt=1ms
-- pour cela, on utilise l'équation d'un leaky-IF
-- on montre alors sa réponse aux stimuli créés ci-dessus
+- we will simulate 1 neuron for 2 seconds with a precision of dt=1ms
+- for that, we use the equation of a leaky-IF
+- then we show its response to the stimuli created above
 
-## injection d'un bruit
+## injection of a noise
 
-- Comme dans la figure 1 de Mainen & Sejnowski (1995), on ajoute un bruit à l'injection de courant
-- ce bruit peut être caracterisé par son amplitude et son temps caractéristique: quel est l'impact sur le résultat?
-- que se passe-t-il quand on inclut un bruit interne à la dynamique du neurone?
+- As in figure 1 of Mainen & Sejnowski (1995), we add a noise to the current injection
+- this noise can be characterized by its amplitude and its characteristic time: what is the impact on the result?
+- what happens when we include an internal noise to the dynamics of the neuron?
 
-# Annexes
+# Appendices
 
-* un article à lire sur le temps dans le cerveau: https://laurentperrinet.github.io/publication/perrinet-19-temps/ [lien direct](https://theconversation.com/temps-et-cerveau-comment-notre-perception-nous-fait-voyager-dans-le-temps-127567)
+* an article to read about time in the brain: https://laurentperrinet.github.io/publication/perrinet-19-temps/ [direct link](https://theconversation.com/temps-et-cerveau-comment-notre-perception-nous-fait-voyager-dans-le-temps-127567)
 
-* [Des illusions aux hallucinations visuelles: une porte sur la perception](https://laurentperrinet.github.io/talk/2019-04-18-jnlf/) - ([slides](https://laurentperrinet.github.io/2019-04-18_JNLF/)) - article sur la perception visuelle : https://laurentperrinet.github.io/post/2019-06-06-theconversation/ [lien direct](https://theconversation.com/illusions-et-hallucinations-visuelles-une-porte-sur-la-perception-117389)
+* [From illusions to visual hallucinations: a door on perception](https://laurentperrinet.github.io/talk/2019-04-18-jnlf/) - ([slides](https://laurentperrinet.github.io/2019-04-18_JNLF/)) - article on visual perception: https://laurentperrinet.github.io/post/2019-06-06-theconversation/ [direct link](https://theconversation.com/illusions-et-hallucinations-visuelles-une-porte-sur-la-perception-117389)
 
 * [Modelling spiking neural networks using Brian, Nest and pyNN](https://laurentperrinet.github.io/talk/2019-04-03-a-course-on-vision-and-modelization/) - ([slides](https://laurentperrinet.github.io/2019-01-14_LACONEU/))
 
-* [Tutorial on predictive coding](https://laurentperrinet.github.io/talk/2018-03-26-cours-neuro-comp-fep/)  https://laurentperrinet.github.io/talk/2017-06-30-telluride/ https://laurentperrinet.github.io/sciblog/files/2017-06-30_Telluride.html
+* [Tutorial on predictive coding](https://laurentperrinet.github.io/talk/2018-03-26-cours-neuro-comp-fep/) https://laurentperrinet.github.io/talk/2017-06-30-telluride/ https://laurentperrinet.github.io/sciblog/files/2017-06-30_Telluride.html
