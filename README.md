@@ -1,24 +1,28 @@
-# 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles NeuroSchool PhD Program
+
+# Everything You Always Wanted to Know About Computational Models in Neuroscience (But Were Afraid to Ask).
+## 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles NeuroSchool PhD Program
 ## NeuroSchool PhD Program
 
+Computational neuroscience is an expanding field that is proving to be essential in neurosciences. The aim of this short intensive course will be to provide a common background in computational neuroscience. The course, after a brief historical overview of the field, will focus on the description of a few selected modelling and theoretical approaches that are currently developed, including details about their limits and advantages, and that can be applied to different scales of analysis (from the single neuron to the whole brain). In addition, we will provide a theoretical and a practical session on artificial neuronal networks of spiking neurons.
+
+* Objectives: 	Understanding how computational modelling can be used to formulate and solve neuroscience problems at different spatial and temporal scales; learning the formal notions of information, encoding and decoding and experimenting their use on specific examples
 
 * Where: Marseille (France)
 
 * What: [Session #3 : Realistic spiking neural networks](https://ametice.univ-amu.fr/course/view.php?id=72868)
 
-
-1. _Applying the Theory on the eBrains platform_
+1. _Computational Neuroscience Tutorial_
 
   * Friday, April 23, 2021; 9:00-12:30
-  * Introduction aux Neurosciences de la Vision
-  * Réseaux de neurones artificiels et apprentissage machine
+  * Objective: Applying the Theory on the eBrains platform
+  * https://github.com/albertoarturovergani/CNT-2021
+  * zoom link = https://univ-amu-fr.zoom.us/j/94280459110?pwd=b25zQytlQ1dIK0x2OTU5OXQ3dzFEZz09
 
 2. _Hands-on practice_
   * Friday, April 23, 2021; 14:00-17:00
+  * Objective: replicating Mainen & Sejnowski (1995)
   * https://github.com/laurentperrinet/2021-04_PhDProgram-neurosciences-computationnelles
-
-*  https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
-
+  * zoom link = https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
 
 # Hands-on session: reproduction of the article by Mainen & Sejnowski, 1995
 
@@ -30,7 +34,7 @@
 * Tools needed: [Jupyter](https://jupyter.org/), with [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/). These are standard tools and are easily installed on any platform. Other hosted solutions exist:
   * [ebrains / HBP](https://wiki.ebrains.eu/bin/view/Collabs/neuromorphic/SpiNNaker/)
   * https://deepnote.com/
-  * on [GoogleColab](https://colab.research.google.com) https://colab.research.google.com/github/CONECT-INT/2021-04_PhDProgram-neurosciences-computationnelles/master/blob/master/MainenSejnowski1995.ipynb
+  * on [GoogleColab](https://colab.research.google.com) https://colab.research.google.com/github/CONECT-INT/2021-04_PhDProgram-neurosciences-computationnelles/blob/master/MainenSejnowski1995.ipynb
 
 ## context
 
