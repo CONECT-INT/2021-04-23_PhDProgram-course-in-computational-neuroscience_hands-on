@@ -1,9 +1,9 @@
-# 2021_UE-neurosciences-computationnelles, matériel pour le cours de modélisation
+# 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles
 
 
 * Où: Marseille (France)
 
-* Quoi: [Master 1 Neurosciences et Sciences Cognitives](https://ametice.univ-amu.fr/course/view.php?id=70136)
+* Quoi: [Master 1 Neurosciences et Sciences Cognitives](https://ametice.univ-amu.fr/course/view.php?id=72868)
 
 
 1. _Réseaux neuronaux artificiels pour la vision_
@@ -13,7 +13,7 @@
   * Réseaux de neurones artificiels et apprentissage machine
 
 2. _Neurones impulsionnels et modèles des fonctions visuelles_
-  * Mercredi 24/03/2021 de 13h30-16h30
+  * Mercredi 21/04/2021 de 14h00-17h00
   * TP via notebook
   * https://github.com/laurentperrinet/2021_UE-neurosciences-computationnelles/
 
