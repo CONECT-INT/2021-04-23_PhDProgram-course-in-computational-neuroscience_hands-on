@@ -1,6 +1,5 @@
 
 # Everything You Always Wanted to Know About Computational Models in Neuroscience (But Were Afraid to Ask).
-## 2021-04_PhDProgram-neurosciences-computationnelles: matériel pour le cours de neurosciences computationnelles NeuroSchool PhD Program
 ## NeuroSchool PhD Program
 
 Computational neuroscience is an expanding field that is proving to be essential in neurosciences. The aim of this short intensive course will be to provide a common background in computational neuroscience. The course, after a brief historical overview of the field, will focus on the description of a few selected modelling and theoretical approaches that are currently developed, including details about their limits and advantages, and that can be applied to different scales of analysis (from the single neuron to the whole brain). In addition, we will provide a theoretical and a practical session on artificial neuronal networks of spiking neurons.
@@ -21,8 +20,9 @@ Computational neuroscience is an expanding field that is proving to be essential
 2. _Hands-on practice_
   * Friday, April 23, 2021; 14:00-17:00
   * Objective: replicating Mainen & Sejnowski (1995)
-  * https://github.com/laurentperrinet/2021-04_PhDProgram-neurosciences-computationnelles
-  * zoom link = https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
+  * github : https://github.com/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/
+  * zoom link : https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
+  * AMETICE :  https://ametice.univ-amu.fr/course/view.php?id=72868#section-4 
 
 # Hands-on session: reproduction of the article by Mainen & Sejnowski, 1995
 
