@@ -35,7 +35,7 @@ Computational neuroscience is an expanding field that is proving to be essential
   * https://deepnote.com/
   * on [GoogleColab](https://colab.research.google.com)
 
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)|
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
 
 
 ## context
