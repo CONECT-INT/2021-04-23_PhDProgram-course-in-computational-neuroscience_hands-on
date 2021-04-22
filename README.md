@@ -23,7 +23,7 @@ Computational neuroscience is an expanding field that is proving to be essential
   * github : https://github.com/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/
   * zoom link : https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
   * AMETICE :  https://ametice.univ-amu.fr/course/view.php?id=72868#section-4 
- 
+
 # Hands-on session: reproduction of the article by Mainen & Sejnowski, 1995
 
 * The aim of this task is to read a scientific article, to reproduce it with simulations of a neuron and to improve the understanding of the study.
@@ -49,12 +49,12 @@ Here, we will attempt to replicate Figure 1 of [Mainen & Sejnowski (1995)](http:
 ## getting to know the tools: numpy and matplotlib
 
 - we are going to create vectors representing the dynamics of a value as a function of time
-- for that, we create a vector `time' representing 1 second with a precision of dt=.5ms
+- for that, we create a vector `time' representing 1 second with a precision of dt=.5 ms
 - in a first step, we will create a plot of a spike, a slot & a sinusoid
 
 ## problem definition: leaky-integrate and fire neuron
 
-- we will simulate 1 neuron for 2 seconds with a precision of dt=1ms
+- we will simulate 1 neuron for 2 seconds with a precision of dt=.5 ms
 - for that, we use the equation of a leaky-IF
 - then we show its response to the stimuli created above
 
