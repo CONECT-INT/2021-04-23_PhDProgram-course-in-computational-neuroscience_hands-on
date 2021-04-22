@@ -23,7 +23,7 @@ Computational neuroscience is an expanding field that is proving to be essential
   * github : https://github.com/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/
   * zoom link : https://univ-amu-fr.zoom.us/j/95013129562?pwd=UEY5YThLaTUxQU0vWDFrUHNteTRqQT09  
   * AMETICE :  https://ametice.univ-amu.fr/course/view.php?id=72868#section-4 
-
+ 
 # Hands-on session: reproduction of the article by Mainen & Sejnowski, 1995
 
 * The aim of this task is to read a scientific article, to reproduce it with simulations of a neuron and to improve the understanding of the study.
