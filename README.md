@@ -35,7 +35,9 @@ Computational neuroscience is an expanding field that is proving to be essential
   * https://deepnote.com/
   * on [GoogleColab](https://colab.research.google.com)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
+
+[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
 
 
 ## context
@@ -65,6 +67,8 @@ Here, we will attempt to replicate Figure 1 of [Mainen & Sejnowski (1995)](http:
 - what happens when we include an internal noise to the dynamics of the neuron?
 
 # Appendices
+
+* a very nice set of slides by [K Kording and colleagues](https://mfr.ca-1.osf.io/render?url=https://osf.io/6dxwe/?direct%26mode=render%26action=download%26mode=render)
 
 * an article to read about time in the brain: https://laurentperrinet.github.io/publication/perrinet-19-temps/ [direct link](https://theconversation.com/temps-et-cerveau-comment-notre-perception-nous-fait-voyager-dans-le-temps-127567)
 
