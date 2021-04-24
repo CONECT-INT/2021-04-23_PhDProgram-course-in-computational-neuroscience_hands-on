@@ -28,16 +28,16 @@ Computational neuroscience is an expanding field that is proving to be essential
 
 * The aim of this task is to read a scientific article, to reproduce it with simulations of a neuron and to improve the understanding of the study.
 
-* Modalities: students will organize themselves alone, in pairs or in triads to provide a brief in the form of a [notebook](https://jupyter.org/) completed from [the model that is provided](https://raw.githubusercontent.com/CONECT-INT/2021-04_PhDProgram-neurosciences-computationnelles/master/MainenSejnowski1995.ipynb). Follow the `QUESTION` tags in the notebook to guide you in this writing. Comments should be made in the notebook (don't forget to save your changes).
+* Modalities: students will organize themselves alone, in pairs or in triads to provide a brief in the form of a [notebook](https://jupyter.org/) completed from [the model that is provided](https://raw.githubusercontent.com/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neuroscience_hands-on/master/MainenSejnowski1995.ipynb). Follow the `QUESTION` tags in the notebook to guide you in this writing. Comments should be made in the notebook (don't forget to save your changes).
 
 * Tools needed: [Jupyter](https://jupyter.org/), with [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/). These are standard tools and are easily installed on any platform. Other hosted solutions exist:
   * [ebrains / HBP](https://wiki.ebrains.eu/bin/view/Collabs/neuromorphic/SpiNNaker/)
   * https://deepnote.com/
   * on [GoogleColab](https://colab.research.google.com)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neuroscience_hands-on/blob/master/MainenSejnowski1995.ipynb)
 
-[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neurosciences/blob/master/MainenSejnowski1995.ipynb)
+[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/CONECT-INT/2021-04-23_PhDProgram-course-in-computational-neuroscience_hands-on/blob/master/MainenSejnowski1995.ipynb)
 
 
 ## context
