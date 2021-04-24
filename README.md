@@ -68,7 +68,9 @@ Here, we will attempt to replicate Figure 1 of [Mainen & Sejnowski (1995)](http:
 
 # Appendices
 
-* a very nice set of slides by [K Kording and colleagues](https://mfr.ca-1.osf.io/render?url=https://osf.io/6dxwe/?direct%26mode=render%26action=download%26mode=render)
+* pre-requisites:
+ * a very nice set of slides by [K Kording and colleagues](https://mfr.ca-1.osf.io/render?url=https://osf.io/6dxwe/?direct%26mode=render%26action=download%26mode=render)
+ * a primer on neuroscience with [Brain facts](https://www.bna.org.uk/static/uploads/resources/BNA_English.pdf)
 
 * an article to read about time in the brain: https://laurentperrinet.github.io/publication/perrinet-19-temps/ [direct link](https://theconversation.com/temps-et-cerveau-comment-notre-perception-nous-fait-voyager-dans-le-temps-127567)
 
