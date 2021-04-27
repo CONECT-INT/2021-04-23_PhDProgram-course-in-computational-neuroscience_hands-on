@@ -66,9 +66,10 @@ Here, we will attempt to replicate Figure 1 of [Mainen & Sejnowski (1995)](http:
 - this noise can be characterized by its amplitude and its characteristic time: what is the impact on the result?
 - what happens when we include an internal noise to the dynamics of the neuron?
 
-# Appendices
+# Appendices / pre-requisites
 
-* pre-requisites:
+ * numpy: a tutorial by Nicolas Rougier: https://github.com/rougier/numpy-tutorial#introduction
+
  * a very nice set of slides by [K Kording and colleagues](https://mfr.ca-1.osf.io/render?url=https://osf.io/6dxwe/?direct%26mode=render%26action=download%26mode=render)
  * a primer on neuroscience with [Brain facts](https://www.bna.org.uk/static/uploads/resources/BNA_English.pdf)
 
